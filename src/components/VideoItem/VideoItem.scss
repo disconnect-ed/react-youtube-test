@@ -1,0 +1,14 @@
+
+.video-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+  &-img {
+    width: 150px;
+    display: inline-block !important;
+  }
+  &-title {
+    display: inline-block !important;
+    width: 150px;
+    padding-left: 15px;
+  }
+}

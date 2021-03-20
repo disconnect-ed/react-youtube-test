@@ -1,0 +1,23 @@
+.searchbar {
+  &-logo {
+    &-img {
+      width: 70px;
+    }
+    &-text {
+      font-size: 30px;
+
+    }
+  }
+
+  &-form {
+    display: flex;
+    justify-content: center;
+    &-input {
+      max-width: 500px;
+      display: inline-block !important;
+    }
+    &-btn {
+      display: inline-block;
+    }
+  }
+}
