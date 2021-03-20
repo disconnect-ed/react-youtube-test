@@ -19,7 +19,7 @@ const Searchbar = ({onSubmit}) => {
                        value={state}
                        onChange={(e) => setState(e.target.value)}
                        className="form-control searchbar-form-input"
-                       placeholder=""/>
+                       placeholder="Enter a link or word"/>
                 <button className='searchbar-form-btn btn btn-danger'>Search</button>
             </form>
         </div>
